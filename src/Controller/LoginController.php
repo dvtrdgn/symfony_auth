@@ -14,7 +14,7 @@ class LoginController extends AbstractController
     {
 
         if ($this->isGranted('ROLE_USER') == true) {
-            dd('test');
+            dd('deneme');
         }
 
         // get the login error if there is one
